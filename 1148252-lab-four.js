@@ -1,10 +1,11 @@
 
 const myButton = document.getElementById('submitButton');
-if (myButton){
+const input = document.getElementById('Country').value;
+
+if (myButton && input){
   // Adding a click event listener
   myButton.addEventListener('click', function() {
-  const input = document.getElementById('Country');
-  getCountries(input);
+    getCountries(input);
   });
 
   async function getCountries(Country) {
