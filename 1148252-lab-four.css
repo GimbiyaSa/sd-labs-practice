@@ -1,0 +1,23 @@
+
+h1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #fcfafa;
+    color: rgb(0, 0, 0);
+    }
+            
+.country {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: small;
+    }
+
+
+.submitButton {
+    display: flex;
+    justify-content: space-around;
+                
+    }
